@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Foodcourt Nusantara - Muhammad Farhan</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f4f6f9;
+}
+
+/* HEADER */
+header{
+background:linear-gradient(120deg,#ff7a18,#ffb347);
+color:white;
+padding:20px;
+text-align:center;
+position:relative;
+}
+
+header h1{
+font-size:32px;
+}
+
+header p{
+opacity:0.9;
+}
+
+header img{
+width:100%;
+height:300px;
+object-fit:cover;
+margin-top:15px;
+border-radius:10px;
+}
+
+/* NAVBAR */
+nav{
+background:white;
+padding:15px;
+display:flex;
+justify-content:center;
+gap:30px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+nav a{
+text-decoration:none;
+color:#333;
+font-weight:500;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#ff7a18;
+}
+
+.container{
+padding:30px;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:20px;
+font-size:28px;
+}
+
+/* TABLE */
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+th{
+background:#ff7a18;
+color:white;
+padding:15px;
+}
+
+td{
+padding:15px;
+text-align:center;
+border-bottom:1px solid #eee;
+}
+
+tr:hover{
+background:#f9f9f9;
+}
+
+td img{
+width:120px;
+border-radius:10px;
+transition:0.3s;
+}
+
+td img:hover{
+transform:scale(1.1);
+}
+
+/* BUTTON */
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#ff7a18;
+color:white;
+text-decoration:none;
+border-radius:30px;
+margin-top:20px;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#ff5200;
+}
+
+.link{
+text-align:center;
+margin-top:30px;
+}
+
+/* FOOTER */
+footer{
+background:#222;
+color:white;
+padding:25px;
+text-align:center;
+margin-top:40px;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+
+table{
+font-size:12px;
+}
+
+header img{
+height:200px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Foodcourt Zenfa</h1>
+<p>Pusat Kuliner Terlengkap & Terlezat</p>
+<img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="Foodcourt">
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#menu">Menu</a>
+<a href="#kontak">Kontak</a>
+</nav>
+
+<div class="container" id="menu">
+
+<h2 class="section-title">Daftar Menu Makanan</h2>
+
+<table>
+<tr>
+<th>No</th>
+<th>Nama Menu</th>
+<th>Deskripsi</th>
+<th>Harga</th>
+<th>Gambar</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Nasi Goreng Spesial</td>
+<td>Nasi goreng dengan telur dan ayam</td>
+<td>Rp 18.000</td>
+<td><img src="https://assets.dapurumami.com/uploads/recipe/nasi-goreng-spesial-ala-sajiku-e888f1fce9237d6a629c91869edbc9d0.jpg"></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Mie Ayam super nikmat </td>
+<td>Mie ayam dengan bakso sapi dan 1000 cabe rawit yang super nendang</td>
+<td>Rp 80.000</td>
+<td><img src="https://i.ytimg.com/vi/8_y1W4oM9yc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAg03EPM0iSfxNY3oZgMtp-nOBv2Q"></td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Bakso Merapi </td>
+<td>Bakso merapi dengan cabe segar dan nikmat</td>
+<td>Rp 50.000</td>
+<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxSPAS0-GbpAdLj9QVELdm4OVMds9_IkKSUA&s"></td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>Sate Ayam naga sakti</td>
+<td>Sate ayam dengan bumbu kacang yg dicamputi berbagai cabe</td>
+<td>Rp 20.000</td>
+<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaiR4MA6gZlftCBmYQj3IeGz9mHftOdqz4wA&s"></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>Ayam Lava</td>
+<td>Ayam Lava pedas level</td>
+<td>Rp 17.000</td>
+<td><img src="https://i.ytimg.com/vi/NZa3-pSRcG8/maxresdefault.jpg"></td>
+</tr>
+
+</table>
+
+<div class="link">
+<a href="#" class="btn">Kunjungi Foodcourt Zenfa</a>
+</div>
+
+</div>
+
+<footer id="kontak">
+<p>Foodcourt Zenfa</p>
+<p>Jl.Bangak-simo</p>
+<p>Telp : 082329761070</p>
+<p>Copyright © 2026 Muhammad Farhan</p>
+</footer>
+
+</body>
+</html>
